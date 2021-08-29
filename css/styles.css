@@ -1,0 +1,276 @@
+
+/*Name : YumiCode 2021*/
+
+/*Main*/
+
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+h2 {
+  font-weight: 900 !important;
+}
+
+p {
+  color: #BFBFBF;
+}
+
+.btn {
+	margin: 0.50rem;
+}
+
+
+/*Navbar Section */
+
+
+.navbar-brand {
+  margin-left: 6rem;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+/*Title Section*/
+
+
+#title {
+  background-color: #FFA68A;
+  padding: 0 0 10rem 0;
+}
+
+nav {
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.4;
+  padding: 3rem 0;
+}
+
+@media (max-width: 1028px) {
+
+#title {
+	text-align: center;
+	}
+
+}
+
+.logo {
+  height: 6rem;
+  position: absolute;
+  left: -0.1rem;
+  top: -0.1rem;
+  z-index: 3;
+}
+
+
+.white-dog {
+  width: 8rem;
+  border-radius: 200%;
+  margin-top: 2rem;
+}
+
+.phone {
+  width: 18rem;
+  margin-top: 3rem;
+  transform: rotate(25deg);
+  /*
+    -webkit-animation: rotateplane 2s infinite ease-in-out;
+    animation: rotateplane 3s infinite ease-in-out;
+*/
+  position: absolute;
+  right: 6rem;
+  top: -2rem;
+}
+
+@media (max-width: 1028px) {
+
+	.phone { 
+	
+	transform: rotate(0deg);
+	position: static;
+	}
+}
+
+/*
+@-webkit-keyframes rotateplane {
+  0% {
+    -webkit-transform: perspective(1200px) rotateX(0deg) rotateY(0deg) rotateZ(15deg);
+  }
+
+  25% {
+    -webkit-transform: perspective(1200px) rotateX(0deg) rotateY(0deg)rotateZ(15deg);
+  }
+
+  25.0001% {
+    -webkit-transform: perspective(1200px) rotateX(0deg) rotateY(0deg)rotateZ(15deg);
+  }
+
+  50% {
+    -webkit-transform: perspective(1200px) rotateX(0deg) rotateY(0deg)rotateZ(15deg);
+  }
+
+  75% {
+    -webkit-transform: perspective(1200px) rotateX(0) rotateY(-90deg)rotateZ(15deg);
+  }
+
+  75.001% {
+    -webkit-transform: perspective(1200px) rotateX(0) rotateY(90deg)rotateZ(15deg);
+  }
+
+  100% {
+    -webkit-transform: perspective(1200px) rotateX(0deg) rotateY(0deg)rotateZ(15deg);
+  }
+}
+*/
+
+/*
+@keyframes rotateplane {
+    0% {
+        transform: perspective(1200px) rotateX(0deg) rotateY(0deg);
+    }
+    25% {
+        transform: perspective(1200px) rotateX(-90deg) rotateY(0deg);
+    }
+    25.0001% {
+        transform: perspective(1200px) rotateX(90deg) rotateY(0deg);
+    }
+    50% {
+        transform: perspective(1200px) rotateX(0deg) rotateY(0deg);
+    }
+    75% {
+        transform: perspective(1200px) rotateX(0) rotateY(-90deg);
+    }
+    75.001% {
+        transform: perspective(1200px) rotateX(0) rotateY(90deg);
+    }
+    100% {
+        transform: perspective(1200px) rotateX(0deg) rotateY(0deg);
+    }
+}
+*/
+
+
+/*Features*/
+
+
+#features {
+  padding: 10% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.check.col-lg-4 {
+  padding: 2% 5%;
+  text-align: center;
+}
+
+.check-description {
+  font-size: 0.85rem;
+}
+
+.icon {
+  color: #FFA68A;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #FF363A;
+}
+
+/*Testimonials*/
+
+
+#testimonials {
+  background-color: #FFA68A;
+  text-align: center;
+  padding: 2rem;
+  color: #FFF;
+}
+
+.testimonials-text {
+  color: #FFF;
+  font-size: 2.3rem;
+  font-weight: 700;
+  padding: 0 4rem;
+}
+
+.testimonial-image {
+  width: 8rem;
+  border-radius: 200%;
+  margin-top: 2rem;
+}
+
+/*Press*/
+
+#press {
+  background-color: #FFA68A;
+  text-align: center;
+}
+
+.press-images {
+  padding: 1rem 3rem 3rem;
+  width: 17rem;
+}
+
+/*Cards*/
+
+.card-box{
+	padding: 0.75rem;
+	
+}
+
+.free {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+#pricing {
+  margin: 5rem;
+}
+
+
+/*Call to Action*/
+
+
+#cta {
+	background-color: #FFA68A; 
+	padding: 3rem ;
+	
+}
+
+.cta-button {
+	padding: 1rem 0 0 0;
+}
+
+.cta-text {
+	color: #fff;
+	font-size: 2rem;
+	font-weight: 800;
+	
+}
+
+/*Footer*/
+
+.icon-socialmedia {
+	padding: 2.8rem;
+	text-align: center;
+}
+
+.icon-box {
+   margin-left: 2rem;
+}
+
+
+
+
+
